@@ -114,9 +114,10 @@ class Config_:
                     "user": None,
                 },
                 "tasks": {
-                    "dedupe": True,
                     "auto_dash_names": True,
                     "collection_name": "tasks",
+                    "dedupe": True,
+                    "dependencies": True,
                     "search_root": None,
                 },
             }
